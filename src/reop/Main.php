@@ -16,7 +16,7 @@ class Main extends PluginBase implements Listener{
         $this->getLogger()->info(TextFormat::GREEN . "REOP");
     }
     public function onEnable(){
-        $this->getLogger()->info(TextFormat::GREEN . "REOP ENABLED")
+        $this->getLogger()->info(TextFormat::GREEN . "REOP ENABLED");
     }
     
     public function onDisable(){
