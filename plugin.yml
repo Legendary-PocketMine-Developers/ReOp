@@ -1,7 +1,7 @@
 name: ReOp
 main: reop\Main
 version: 1.0.0
-api: 2.0.0
+api: [1.0.0, 2.0.0]
 load: POSTWORLD
 author: TheDeibo
 description: Allows the user to be reoped IF they are on the Config.
