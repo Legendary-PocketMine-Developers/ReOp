@@ -4,13 +4,12 @@ version: 1.0.0
 api: [1.0.0, 2.0.0]
 load: POSTWORLD
 author: TheDeibo
-description: Allows the user to be reoped IF they are on the Config.
+description: Allows the user to be reoped IF they are on the Config
 commands:
- reop:
-  description: §aDisplays Plugin Infomation
-  usage: "/reop" As Simple as that
-  permission: reop.reop
+  reop:
+    description: Reop's yourself if your on the list
+    permission: reop.reop
 permissions:
- reop.reop:
-   description: Allows the user to be reoped IF they are on the Config.
-   default: true
+  reop.reop:
+    description: Allows the user to be reoped IF they are on the Config.
+    default: true
